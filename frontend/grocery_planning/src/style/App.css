@@ -1,0 +1,72 @@
+.main_div{
+  background-color: cornflowerblue;
+}
+.nav_styling{
+  color:rgb(168, 166, 166);
+  background: #363a3a;
+  text-align: center;
+  padding:1rem;
+}
+.nav_styling h1{
+  font-size:2.5rem;
+  font-weight: 500;
+
+}
+.content_styling{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  width:100vw;
+  height:100vh;
+}
+.content_styling h1{
+ margin-bottom: 1rem;
+ font-size:2.9rem;
+}
+.content_styling form{
+  margin-bottom: 10rem;
+  width: 36rem;
+  display: flex;
+  flex-direction: column;
+}
+.content_styling form input{
+  width:100%;
+  background-color:#fff;
+  font-size:1.8rem;
+  padding: 13px 8px;
+  border-radius:0.4rem;
+  outline-width: 0;
+  border:3px solid rgb(212, 200, 200);
+}
+.content_styling .btn{
+  display:none;
+}
+.content_styling form ul{
+  width:100%;
+  background-color:rgb(238, 236, 236);
+  border-radius:0.4rem;
+  padding:3px 3px;
+}
+.content_styling li{
+  align-items: center;
+  display:inline-block;
+  list-style:none;
+  font-size:1.6rem;
+}
+.data_styling{
+  margin:5px 2px;
+  margin-top:1px;
+  padding: 10px 12px;
+  background-color: #fff;
+  box-shadow: 1px 4px 4px 0px rgb(230 221 221);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius:2px;
+}
+.content_styling button{
+  font-size: 1.5rem;
+  padding:4px 10px;
+  margin: 0 4px;
+}
